@@ -1,0 +1,103 @@
+/*
+ * Plugin YouTube Simple Gallery
+ * Copyright (c) 2013 - 2013 CHR Designer (http://www.chrdesigner.com/)
+ *
+ * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+ *
+ * Version : 1.0
+ *
+ */
+ 
+.ul-YoutubeGallery{
+	 display: inline-block; width: 97%; margin-bottom: 10px;
+}
+
+.ul-YoutubeGallery li.li-YoutubeGallery{
+/*	float: left; margin: 0 12px 15px; width: auto; list-style-type: none; */
+	float: left; margin: 0 44px 54px; width: 360px; list-style-type: none;
+	background:#fff;
+	border-style:solid;
+	border-width:3px;
+	border-radius: 10px;
+	-webkit-box-shadow:  0px 2px 5px 2px rgba(0, 0, 0, 0.5);  
+        box-shadow:  0px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ul-YoutubeGallery li h3.title-YoutubeGallery{
+	/* margin-bottom: 5px; min-height: 30px; color: #444444; */
+
+	text-shadow:none;
+	font-family:'Oswald', Helvetica,  Arial, sans-serif;
+	background:none;
+	display:block;
+	height:20px;
+	width:290px;
+	font-size:14px;
+	font-weight:700;
+	text-transform:uppercase;
+	padding:15px 0px 10px 0px;
+	margin:0px 0px 0px 10px;
+	float:left;
+
+}
+
+.ul-YoutubeGallery li img.img-YoutubeGallery {
+/*    border-radius: 3px 3px 3px 3px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); max-width: 100%; height: auto; */
+    max-width: 100%; height: auto;
+	margin-left:10px;
+	border-style:solid;
+	border-width:3px;
+	background-color:#1f1f1f;
+	-webkit-box-shadow:  0px 2px 3px 1px rgba(0, 0, 0, 75);  
+    box-shadow:  0px 2px 3px 1px rgba(0, 0, 0, 75);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+	transition:border 0.35s ease-in-out;
+	/* Firefox 4 */
+	-moz-transition:border 0.35s ease-in-out;
+	/* Safari and Chrome */
+	-webkit-transition:border 0.35s ease-in-out;
+	/* Opera */
+	-o-transition:border 0.35s ease-in-out;
+}
+
+
+.ul-YoutubeGallery li blockquote.blockquote-YoutubeGallery{
+	display: inline-block; width: 100%; color: #666; margin-left: 10px; margin-top: 10px; margin-bottom-10px;
+	line-height:18px;
+}
+
+.chr-default-pagination{
+	width: 100%; display: inline-block; text-align: center;
+}
+
+.chr-default-pagination a {
+    border: 1px solid #BFBFBF; margin: 2px; padding: 3px 5px; text-decoration: none; color: #21759B;
+}
+
+.chr-default-pagination a.selected{
+	border-color: #000000; font-weight: bold; cursor: default; color: #444444;
+}
+
+/*Widget CSS*/
+
+.ul-Widget-YoutubeGallery{
+	display: inline-block; width: 100%;
+}
+
+.ul-Widget-YoutubeGallery li.li-Widget-YoutubeGallery{
+	display: block; margin-bottom: 10px;
+}
+
+.ul-Widget-YoutubeGallery li h3.title-Widget-YoutubeGallery{
+	color: #444444; line-height: normal; margin-bottom: 5px;
+}
+
+.btn-YSG-Widget{
+	text-decoration: none; font-weight: bold;
+}
+
+.btn-YSG-Widget:before{
+	content: '\00BB ';	
+}
